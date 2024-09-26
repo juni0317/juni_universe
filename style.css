@@ -11,6 +11,20 @@ body {
 	height: 100%;
 }
 
+h1 {
+    font-size: 3.5em; text-shadow: 0 1px 1px #c0c0c0,
+    0 2px 0 #a8a7a6,
+    0 3px 0 #8b8a89,
+    0 4px 0px #7d7b7a,
+    0 5px 0px #686766,
+    0 6px 3px #5f5e5d;
+}
+
+#title {
+    display: inline-block;
+    transition: transform 0.5s ease;
+}
+
 a{
     font-family: "Roboto", sans-serif;
     font-size: 1.9em;
